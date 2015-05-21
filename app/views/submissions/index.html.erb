@@ -1,0 +1,12 @@
+submitted applications
+
+<ul>
+	<%= @submissions.each do |submission| %>
+		<li>
+			<%= submission.company_name %>, <%= submission.created_at %>
+		</li>
+	<% end %>
+</ul>
+
+<%= link_to "New Submission", new_submission_path %>
+
