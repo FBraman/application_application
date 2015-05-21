@@ -1,0 +1,1 @@
+I thought I could use the rails practice and an application to track my job seach.
